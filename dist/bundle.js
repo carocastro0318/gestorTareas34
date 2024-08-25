@@ -107,10 +107,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
+<<<<<<< HEAD
 ___CSS_LOADER_EXPORT___.push([module.id, `/*Estilos generales*/
 body {
     font-family: Arial;
     background-color: rgb(111, 145, 255);
+=======
+___CSS_LOADER_EXPORT___.push([module.id, `/*Estiloa generales*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+>>>>>>> d8a1e52d60ecdba62bf60ceb8f23efc4dc734d5c
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -119,6 +126,7 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
 h1 {
     color: rgb(21, 5, 192);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra: desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
@@ -131,6 +139,14 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+=======
+/*Estilos para el contenedor principal */
+#app {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+>>>>>>> d8a1e52d60ecdba62bf60ceb8f23efc4dc734d5c
 }
 
 /*Estilos para el formulario*/
@@ -166,9 +182,15 @@ ul {
 
 /* Estilos a los elementos de la lista */
 li {
+<<<<<<< HEAD
     background-color: #ffffff;
     padding: 10px;
     border: 10px solid #6bc7fd;
+=======
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 10px solid #ddd;
+>>>>>>> d8a1e52d60ecdba62bf60ceb8f23efc4dc734d5c
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -179,9 +201,13 @@ li {
 li.completed {
     text-decoration: line-through;
     color: #888;
+<<<<<<< HEAD
 }
 
 `, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA,oBAAoB;AACpB;IACI,kBAAkB;IAClB,oCAAoC;IACpC,SAAS;IACT,UAAU;IACV,aAAa;IACb,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA;IACI,sBAAsB;IACtB,2CAA2C,EAAE,kFAAkF;AACnI;;AAEA,wCAAwC;AACxC;IACI,uBAAuB;IACvB,aAAa;IACb,kBAAkB;IAClB,uCAAuC;;AAE3C;;AAEA,6BAA6B;AAC7B;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA,0BAA0B;AAC1B;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;IAClB,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA,0BAA0B;AAC1B;IACI,gBAAgB;IAChB,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,eAAe;AACnB;;AAEA,wBAAwB;AACxB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,wCAAwC;AACxC;IACI,yBAAyB;IACzB,aAAa;IACb,0BAA0B;IAC1B,gBAAgB;IAChB,aAAa;IACb,mBAAmB;IACnB,8BAA8B;AAClC;;AAEA,iDAAiD;AACjD;IACI,6BAA6B;IAC7B,WAAW;AACf","sourcesContent":["/*Estilos generales*/\r\nbody {\r\n    font-family: Arial;\r\n    background-color: rgb(111, 145, 255);\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 100vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\nh1 {\r\n    color: rgb(21, 5, 192);\r\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra: desplazamiento horizontal, desplazamiento vertical, desenfoque, color */\r\n}\r\n\r\n/*Estilos para el contenedor principal */\r\n#app {\r\n    background-color: white;\r\n    padding: 50px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n\r\n}\r\n\r\n/*Estilos para el formulario*/\r\nform{\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos para el input */\r\ninput {\r\n    width: 75%;\r\n    padding: 8px;\r\n    margin-right: 10px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 3px;\r\n}\r\n\r\n/* Estilos para el botón */\r\nbutton {\r\n    padding: 5px 8px;\r\n    background-color: #007bff;\r\n    color: white;\r\n    border: none;\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/* Estilos de la lista */\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/* Estilos a los elementos de la lista */\r\nli {\r\n    background-color: #ffffff;\r\n    padding: 10px;\r\n    border: 10px solid #6bc7fd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos para cuando una tarea está completada*/\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #888;\r\n}\r\n\r\n"],"sourceRoot":""}]);
+=======
+}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA,oBAAoB;AACpB;IACI,8BAA8B;IAC9B,yBAAyB;IACzB,SAAS;IACT,UAAU;IACV,aAAa;IACb,aAAa;IACb,uBAAuB;IACvB,mBAAmB;AACvB;;AAEA,wCAAwC;AACxC;IACI,uBAAuB;IACvB,aAAa;IACb,kBAAkB;IAClB,uCAAuC;AAC3C;;AAEA,6BAA6B;AAC7B;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA,0BAA0B;AAC1B;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;IAClB,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA,0BAA0B;AAC1B;IACI,gBAAgB;IAChB,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,eAAe;AACnB;;AAEA,wBAAwB;AACxB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,wCAAwC;AACxC;IACI,yBAAyB;IACzB,aAAa;IACb,uBAAuB;IACvB,gBAAgB;IAChB,aAAa;IACb,mBAAmB;IACnB,8BAA8B;AAClC;;AAEA,iDAAiD;AACjD;IACI,6BAA6B;IAC7B,WAAW;AACf","sourcesContent":["/*Estiloa generales*/\r\nbody {\r\n    font-family: Arial, sans-serif;\r\n    background-color: #f4f4f4;\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 100vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n}\r\n\r\n/*Estilos para el contenedor principal */\r\n#app {\r\n    background-color: white;\r\n    padding: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n/*Estilos para el formulario*/\r\nform{\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos para el input */\r\ninput {\r\n    width: 75%;\r\n    padding: 8px;\r\n    margin-right: 10px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 3px;\r\n}\r\n\r\n/* Estilos para el botón */\r\nbutton {\r\n    padding: 5px 8px;\r\n    background-color: #007bff;\r\n    color: white;\r\n    border: none;\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/* Estilos de la lista */\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/* Estilos a los elementos de la lista */\r\nli {\r\n    background-color: #f4f4f4;\r\n    padding: 10px;\r\n    border: 10px solid #ddd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos para cuando una tarea está completada*/\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #888;\r\n}"],"sourceRoot":""}]);
+>>>>>>> d8a1e52d60ecdba62bf60ceb8f23efc4dc734d5c
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
